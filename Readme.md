@@ -23,7 +23,7 @@ Inspired by [component/indexof](https://github.com/component/indexof) & [yields/
 
 ## Author(s)
 
-Edgedesign s.r.o. – Tomas Kuba
+Edgedesign s.r.o. – [Tomas Kuba](https://github.com/tomaskuba)
 
 ## License
 
