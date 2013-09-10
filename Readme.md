@@ -11,7 +11,7 @@
 
 ## API
 
-When you need both implemntation of indexOf function.
+When you need array and DOM aware indexOf function (both in one).
 
 ### indexOf(arr, item)
 Return index of item in given array, or -1 if item not in array.
