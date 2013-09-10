@@ -1,13 +1,13 @@
-module.exports = function(arr, obj){
-    if (!obj) {
-        obj = arr;
-        if (!obj.parentNode) return -1;
-        arr = obj.parentNode.children;
+module.exports = function(arr, item){
+    if (!item) {
+        item = arr;
+        if (!item.parentNode) return -1;
+        arr = item.parentNode.children;
     }
     var len = arr.length;
-    if (arr.indexof) return arr.indexof(obj);
+    if (arr.indexof) return arr.indexof(item);
     for (var i = 0; i < len; ++i) {
-        if (obj == arr[i]) return i;
+        if (item == arr[i]) return i;
     }
     return -1;
 };

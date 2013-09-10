@@ -3,7 +3,7 @@ var assert = require('assert');
 var domify = require('domify');
 var indexof = require('indexof');
 
-describe('indexOf(arr, obj)', function(){
+describe('indexOf(arr, item)', function(){
   it('should return index of item in array', function(){
     assert(indexof([7,3,9],3) == 1);
   })
@@ -11,7 +11,6 @@ describe('indexOf(arr, obj)', function(){
   it('should return -1 when item is not in array', function(){
     assert(indexof([7,3,9],5) == -1);
   })
-
 })
 
 describe('indexOf(el)', function(){
